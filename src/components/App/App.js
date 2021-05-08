@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
-import Login from '../Login/Login';
-import useToken from './useToken';
+//import useToken from './useToken';
 import Game from '../Dashboard/Connect-4';
 import Weather from '../Dashboard/Weather';
 
 function App() {
 
-  const { token, setToken } = useToken();
+  //const { token, setToken } = useToken(); 
 
   // if(!token) {
   //   return <Login setToken={setToken} />
